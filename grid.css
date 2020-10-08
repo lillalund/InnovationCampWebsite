@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(100px,200px);
+    grid-gap: 1vw;
+}
+
+.main {
+    grid-column: 1/4;
+    grid-row: auto;
+}
+
+.right {
+    grid-column: 4/6;
+    grid-row: auto;
+    background-color: rgba(254, 240, 71, 0.3);
+}
