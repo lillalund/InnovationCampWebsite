@@ -1,2 +1,0 @@
-# Skolearbeid
-InnovationCampWebsite
